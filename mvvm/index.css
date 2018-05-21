@@ -1,0 +1,35 @@
+.ui-progressbar, .ui-slider {
+    position: relative;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    height: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 40px;
+    box-sizing: content-box;
+}
+
+.ui-progressbar b, .ui-slider b {
+    position: absolute;
+    right: -40px;
+}
+
+.ui-progressbar em, .ui-slider em {
+    position: absolute;
+    top: -100%;
+}
+
+.ui-progressbar span, .ui-slider span {
+    position: absolute;
+    width: 20px;
+    height: 30px;
+    top: -5px;
+    background: blue;
+    bottom: 1px solid #ccc;
+}
+
+.ui-progressbar div, .ui-slider div {
+    height: 100%;
+    background: yellow;
+    border-right: 1px solid #ccc;
+}

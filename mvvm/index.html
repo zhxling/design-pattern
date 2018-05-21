@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>MVVM</title>
+        <link rel="stylesheet" type="text/css" href="./index.css">
+    </head>
+    <body>
+        <div class="first" data-bind="type: 'slider', data: demo1"></div>
+        <div class="second" data-bind="type: 'slider', data: demo2"></div>
+        <div class="third" data-bind="type: 'progressbar', data: demo3"></div>
+    </body>
+    <script src="./index.js"></script>
+    <script type="text/javascript">
+        var demo1 = {
+            position: 60,
+            totle: 200
+        },
+        demo2 = {
+            position: 20,
+        },
+        demo3 = {
+            position: 50
+        };
+
+        window.onload = function() {
+            VM();
+        }
+
+    </script>
+    <script type="text/javascript">
+        Function.prototype.addMethod = function(name, fn) {
+            this[name] 
+        }
+    </script>
+</html>
